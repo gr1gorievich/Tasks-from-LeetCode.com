@@ -3,7 +3,7 @@ public:
 int reverse(long x) {
     bool positive = true;               
 	if (x < 0) {
-		x=-(x);
+		x = -x;
 		positive = false;
 	}
 	
